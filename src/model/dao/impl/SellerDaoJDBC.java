@@ -122,6 +122,7 @@ public class SellerDaoJDBC implements SellerDao {
                 throw new DbException("the given id does not exist");
             }
 
+
         }catch(SQLException e){
 
             throw new DbException(e.getMessage());
